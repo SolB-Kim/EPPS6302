@@ -14,7 +14,7 @@ description: "2025 Fall - [EPPS 6302] Methods of Data Collection and Production"
 url: https://solb-kim.github.io/EPPS6302/
 baseurl: ""     # empty for user site
 avatar: /assets/hobak.jpg
-paginate: 5
+paginate: 6
 permalink: pretty
 cover_image: /assets/bg.jpg
 
