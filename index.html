@@ -1,3 +1,47 @@
 ---
-layout: home
+layout: page
+title: "[EPPS 6302] SolB's Project"
+description: "2025 Fall • Methods of Data Collection and Production"
 ---
+
+<section>
+  <h1>[EPPS 6302] SolB's Project</h1>
+  <p>
+    Welcome! This site hosts materials for <strong>Methods of Data Collection and Production</strong>
+    (Fall 2025). Built with Jekyll and the
+    <code>vszhub/not-pure-poole</code> theme.
+  </p>
+
+  <ul>
+    <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+    <li><a href="{{ '/syllabus/' | relative_url }}">Syllabus</a></li>
+    <li><a href="{{ '/assignments/' | relative_url }}">Assignments</a></li>
+    <li><a href="{{ '/notes/' | relative_url }}">Class Notes</a></li>
+  </ul>
+</section>
+
+<hr>
+
+<section>
+  <h2>Latest Posts</h2>
+  <ul>
+    {% for post in site.posts limit:5 %}
+      <li>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        <small>— {{ post.date | date: "%b %-d, %Y" }}</small>
+      </li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ '/archive/' | relative_url }}">View all posts →</a></p>
+</section>
+
+<hr>
+
+<section>
+  <h2>Contact</h2>
+  <p>
+    Questions or feedback? Open an issue on
+    <a href="https://github.com/{{ site.github.owner_name }}/{{ site.github.repository_name }}">GitHub</a>
+    or email me.
+  </p>
+</section>
