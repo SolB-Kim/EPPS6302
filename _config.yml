@@ -12,7 +12,6 @@ remote_theme: vszhub/not-pure-poole
 title: "[EPPS 6302] SolB's Project"
 description: "2025 Fall - [EPPS 6302] Methods of Data Collection and Production"
 url: https://solb-kim.github.io/EPPS6302/
-baseurl: ""     # empty for user site
 avatar: /assets/hobak.jpg
 paginate: 6
 permalink: pretty
@@ -31,18 +30,6 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyll SEO Tag
-twitter:
-  username: vszhub
-  card: summary
-logo: logo.png
-social:
-  name: Songzi Vong
-  links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
-google_site_verification: xxxxx
-lang: en
-
 sass:
   sass_dir: _sass
   style: :compressed
@@ -55,8 +42,3 @@ sass:
 # Replace this value and uncomment to enable Disqus
 # disqus: xxxxxx
 
-# Specify the author for blog posts
-author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
